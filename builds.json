@@ -1,0 +1,150 @@
+{
+  "price_date": "2026-11-10",
+  "currency": "RUB",
+  "budget_a": 110000,
+  "budget_b": 160000,
+  "variant_a": [
+    {
+      "category": "CPU",
+      "model": "AMD Ryzen 7 5700G OEM (100-000000263)",
+      "price": 19550,
+      "purpose": "8 ядер / 16 потоков, L3 16 МБ, TDP 65 Вт; встроенная Radeon Graphics позволяет отказаться от дискретной видеокарты.",
+      "url": "https://kitvi.ru/hardware/amd-ryzen-7-5700g",
+      "source_note": "Kitvi: CompDay, предложение в наличии; проверка страницы 10.11.2026."
+    },
+    {
+      "category": "Материнская плата",
+      "model": "MSI B550M PRO-VDH WIFI",
+      "price": 9223,
+      "purpose": "AM4, B550, 4 слота DDR4, до 128 ГБ, 2 M.2, DP + HDMI + VGA, Wi-Fi.",
+      "url": "https://new.sly.ru/catalog/materinskye_platy_msi/msi-b550m-pro-vdh-wifi-rtl-am4-b550-pci-e-dsub-hdmi-dp-gblan-wifi-bt-sata-microatx-4ddr4/",
+      "source_note": "SLY: карточка товара, цена 9 223 ₽, наличие 1 шт.; проверка страницы в ноябре 2026."
+    },
+    {
+      "category": "ОЗУ",
+      "model": "GeIL ORION 32 ГБ (2×16 ГБ) DDR4-3200 C18, GAOG432GB3200C18ADC",
+      "price": 26885,
+      "purpose": "Двухканальный комплект 2×16 ГБ; соответствует минимальному требованию 32 ГБ.",
+      "url": "https://pamyat-index.ru/ddr4-32-3200/",
+      "source_note": "Индекс памяти: предложение Яндекс Маркета от 01.11.2026."
+    },
+    {
+      "category": "GPU / встроенная графика",
+      "model": "AMD Radeon Graphics (встроенная в Ryzen 7 5700G), отдельной VRAM нет",
+      "price": 0,
+      "purpose": "Общая системная память; офисная работа, вывод изображения, базовый viewport. GPU-рендеринг Blender не является целью варианта А.",
+      "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5700g.html",
+      "source_note": "Официальная спецификация AMD."
+    },
+    {
+      "category": "SSD",
+      "model": "ADATA Legend 900 1 ТБ, SLEG-900-1TCS, M.2 NVMe PCIe 4.0 x4",
+      "price": 15890,
+      "purpose": "Системный SSD 1 ТБ; ОС, IDE, проекты, контейнеры и локальная БД. Ryzen 7 5700G поддерживает PCIe 3.0, поэтому этот SSD PCIe 4.0 в варианте А будет работать как PCIe 3.0 x4.",
+      "url": "https://kitvi.ru/hardware/adata-legend-900-1tb",
+      "source_note": "Kitvi: CompDay, предложение в наличии; проверка страницы 10.11.2026."
+    },
+    {
+      "category": "Охлаждение CPU",
+      "model": "Thermalright Assassin X 120 Refined SE V2",
+      "price": 1725,
+      "purpose": "Воздушный кулер, крепление AM4, высота 148 мм.",
+      "url": "https://itvse.ru/product/thermalright-assassin-x-120-refined-se-v2/",
+      "source_note": "IT ВСЁ / XCOM-SHOP: цена 1 725 ₽, в наличии; 03.11.2026."
+    },
+    {
+      "category": "Блок питания",
+      "model": "DeepCool PF550, 550 Вт, 80 PLUS Standard",
+      "price": 3838,
+      "purpose": "550 Вт; ATX 24-pin, CPU 4+4-pin, 2×PCIe 6+2-pin; достаточно для APU-сборки.",
+      "url": "https://m.integration.vs.market.yandex.net/card/blok-pitaniya-deepcool-550w-r-pf550d-ha0b-eu-atx-2482x68pin/103194989668",
+      "source_note": "Яндекс Маркет / TopComputer: 3 838 ₽; динамическое предложение."
+    },
+    {
+      "category": "Корпус",
+      "model": "Ocypus Gamma C60 ARGB White, Gamma-C60-WHG400XX-GL, 4×120 мм",
+      "price": 3795,
+      "purpose": "Mesh-корпус, 4 предустановленных вентилятора; лимит GPU 330 мм, кулера 175 мм, БП 170 мм.",
+      "url": "https://www.apltech.ru/catalog/196/kompyuternye-komplektuyuschie/korpusy/ocypus",
+      "source_note": "AplTech: карточка каталога Ocypus, 3 795 ₽; цену и наличие перепроверить."
+    }
+  ],
+  "variant_b": [
+    {
+      "category": "CPU",
+      "model": "AMD Ryzen 9 5900X OEM (100-000000061)",
+      "price": 36900,
+      "purpose": "12 ядер / 24 потока, L3 64 МБ, TDP 105 Вт; больше параллельных ресурсов для Docker, VM, компиляции и CPU-задач.",
+      "url": "https://it-factor.ru/catalog/komplektuyushchie_dlya_kompyuterov/protsessory/amd_ryzen_9/",
+      "source_note": "IT-Factor: карточка каталога, 36 900 ₽, статус «Есть в наличии»; проверить перед фиксацией заказа."
+    },
+    {
+      "category": "Материнская плата",
+      "model": "MSI B550M PRO-VDH WIFI",
+      "price": 9223,
+      "purpose": "AM4, B550, 4 слота DDR4 до 128 ГБ, 2 M.2, 4 SATA, PCIe x16, Wi-Fi.",
+      "url": "https://new.sly.ru/catalog/materinskye_platy_msi/msi-b550m-pro-vdh-wifi-rtl-am4-b550-pci-e-dsub-hdmi-dp-gblan-wifi-bt-sata-microatx-4ddr4/",
+      "source_note": "SLY: карточка товара, цена 9 223 ₽, наличие 1 шт.; проверка страницы в ноябре 2026."
+    },
+    {
+      "category": "ОЗУ",
+      "model": "GeIL ORION 32 ГБ (2×16 ГБ) DDR4-3200 C18, GAOG432GB3200C18ADC",
+      "price": 26885,
+      "purpose": "32 ГБ — обязательный минимум. При нескольких VM/контейнерах целесообразен апгрейд до 64 ГБ.",
+      "url": "https://pamyat-index.ru/ddr4-32-3200/",
+      "source_note": "Индекс памяти: предложение Яндекс Маркета от 01.11.2026."
+    },
+    {
+      "category": "GPU",
+      "model": "Palit GeForce RTX 5060 Dual OC 8 ГБ GDDR7, NE75060S19P1-GB2063D",
+      "price": 46490,
+      "purpose": "CUDA / OptiX для Blender, 8 ГБ выделенной VRAM; 145 Вт, один 8-pin, 3×DP + HDMI.",
+      "url": "https://kitvi.ru/hardware/palit-geforce-rtx-5060-dual-oc-8gb",
+      "source_note": "Kitvi: CompDay, предложение в наличии 46 490 ₽; проверка страницы 10.11.2026."
+    },
+    {
+      "category": "SSD",
+      "model": "Kingston NV3 2 ТБ, SNV3S/2000G, M.2 NVMe PCIe 4.0 x4",
+      "price": 27890,
+      "purpose": "2 ТБ под ОС, среды разработки, образы VM, Docker-слои, БД и проекты.",
+      "url": "https://kitvi.ru/hardware/kingston-nv3-snv3s-2tb",
+      "source_note": "Kitvi: CompDay, предложение в наличии 27 890 ₽; проверка страницы 10.11.2026."
+    },
+    {
+      "category": "Охлаждение CPU",
+      "model": "Thermalright Peerless Assassin 120 SE",
+      "price": 2903,
+      "purpose": "Двухбашенный кулер, 6 тепловых трубок, крепление AM4, высота 155 мм.",
+      "url": "https://kitvi.ru/hardware/thermalright-peerless-assassin-120-se",
+      "source_note": "Kitvi: X-Com, в наличии 2 903 ₽; проверка страницы 10.11.2026."
+    },
+    {
+      "category": "Блок питания",
+      "model": "DeepCool PF650D V2, 650 Вт, 80 PLUS Silver, ATX 3.1",
+      "price": 4580,
+      "purpose": "650 Вт; 2×CPU 4+4-pin, 2×PCIe 6+2-pin и 16-pin; выбранный GPU использует 8-pin.",
+      "url": "https://www.citilink.ru/product/blok-pitaniya-deepcool-atx-650w-pf650d-v2-80-silver-20-4pin-apfc-120mm-2201861/documents/",
+      "source_note": "Citilink: карточка PF650D V2, 4 580 ₽; проверить текущую цену и наличие."
+    },
+    {
+      "category": "Корпус",
+      "model": "Ocypus Gamma C60 ARGB White, Gamma-C60-WHG400XX-GL, 4×120 мм",
+      "price": 3795,
+      "purpose": "Mesh-корпус, 4 вентилятора; лимит GPU 330 мм, кулера 175 мм, БП 170 мм.",
+      "url": "https://www.apltech.ru/catalog/196/kompyuternye-komplektuyuschie/korpusy/ocypus",
+      "source_note": "AplTech: карточка каталога Ocypus, 3 795 ₽; цену и наличие перепроверить."
+    }
+  ],
+  "alternative_b": {
+    "replace": "Kingston NV3 2 ТБ",
+    "with": "ADATA Legend 900 1 ТБ",
+    "saving": 12000,
+    "new_total": 146666,
+    "reason": "Снижается только ёмкость хранилища; производительность CPU/GPU не меняется. Для множества VM и Docker предпочтительнее оставить 2 ТБ."
+  },
+  "total_a": 80906,
+  "total_b": 158666,
+  "difference": 77760,
+  "remaining_a": 29094,
+  "remaining_b": 1334
+}

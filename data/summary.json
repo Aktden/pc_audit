@@ -1,0 +1,198 @@
+{
+  "status": "Оба измерения собраны",
+  "generated_at": "2026-11-10T15:41:27+03:00",
+  "machine": {
+    "captured_at": "2026-11-10T15:40:53+03:00",
+    "computer_model": "ZET Gaming WARD H195",
+    "os": {
+      "system": "Windows",
+      "release": "NT 10.0",
+      "version": "10.0.26300",
+      "architecture": "AMD64",
+      "build": "26300",
+      "note": "Редакцию Windows проверить по msinfo32; сохранена версия ядра и номер сборки."
+    },
+    "cpu": {
+      "model": "11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz",
+      "physical_cores": 6,
+      "logical_processors": 12,
+      "l3_cache_mb": 12.0
+    },
+    "motherboard": {
+      "Manufacturer": "Micro-Star International Co., Ltd.",
+      "Product": "MAG B560M BAZOOKA",
+      "Version": "2.0"
+    },
+    "ram": {
+      "total_gib": 15.88,
+      "type": "DDR4",
+      "modules": 2,
+      "speed_mhz": 3200,
+      "details": [
+        {
+          "manufacturer": "Patriot Memory (PDP Systems)",
+          "part_number": "3200 C16 Series     ",
+          "capacity_gib": 8.0,
+          "speed_mhz": 3200,
+          "type": "DDR4"
+        },
+        {
+          "manufacturer": "Patriot Memory (PDP Systems)",
+          "part_number": "3200 C16 Series     ",
+          "capacity_gib": 8.0,
+          "speed_mhz": 3200,
+          "type": "DDR4"
+        }
+      ]
+    },
+    "gpu": [
+      {
+        "model": "NVIDIA GeForce RTX 3060",
+        "vram_gib_windows_reported": 4.0,
+        "driver": "32.0.16.1714",
+        "video_processor": "NVIDIA GeForce RTX 3060"
+      }
+    ],
+    "disks": [
+      {
+        "model": "Samsung SSD 870 EVO 500GB",
+        "capacity_gib": 465.76,
+        "interface": "IDE",
+        "media_type": "Fixed hard disk media",
+        "bus_type": "SATA",
+        "physical_media": "SSD"
+      }
+    ],
+    "bios": {
+      "SMBIOSBIOSVersion": "A.Z1",
+      "ReleaseDate": "/Date(1625443200000)/",
+      "Manufacturer": "American Megatrends International, LLC."
+    },
+    "psu": null,
+    "cooling": null,
+    "case": null,
+    "limitations": [
+      "Блок питания и модель воздушного/жидкостного охлаждения обычно не доступны программному опросу.",
+      "Если nvidia-smi недоступен, объём VRAM из Win32_VideoController может быть ограничен способом представления Windows."
+    ],
+    "physical_disks": [
+      {
+        "model": "Samsung SSD 870 EVO 500GB",
+        "media_type": "SSD",
+        "bus_type": "SATA",
+        "capacity_gib": 465.76
+      }
+    ],
+    "gpu_nvidia_smi": [
+      {
+        "model": "NVIDIA GeForce RTX 3060",
+        "vram_gib": 12.0,
+        "source": "nvidia-smi"
+      }
+    ]
+  },
+  "runs": {
+    "idle": {
+      "count": 30,
+      "interval_s": 1.0,
+      "metrics": {
+        "cpu_percent": {
+          "min": 2.3,
+          "avg": 4.16,
+          "max": 12.8
+        },
+        "ram_used_gib": {
+          "min": 10.45,
+          "avg": 10.46,
+          "max": 10.47
+        },
+        "ram_available_gib": {
+          "min": 5.41,
+          "avg": 5.43,
+          "max": 5.43
+        },
+        "ram_percent": {
+          "min": 65.8,
+          "avg": 65.84,
+          "max": 65.9
+        }
+      }
+    },
+    "workload": {
+      "count": 30,
+      "interval_s": 1.0,
+      "metrics": {
+        "cpu_percent": {
+          "min": 1.6,
+          "avg": 8.35,
+          "max": 19.1
+        },
+        "ram_used_gib": {
+          "min": 10.59,
+          "avg": 10.61,
+          "max": 10.67
+        },
+        "ram_available_gib": {
+          "min": 5.22,
+          "avg": 5.27,
+          "max": 5.29
+        },
+        "ram_percent": {
+          "min": 66.7,
+          "avg": 66.8,
+          "max": 67.2
+        }
+      }
+    }
+  },
+  "comparison": {
+    "cpu_percent": {
+      "idle": {
+        "min": 2.3,
+        "avg": 4.16,
+        "max": 12.8
+      },
+      "workload": {
+        "min": 1.6,
+        "avg": 8.35,
+        "max": 19.1
+      }
+    },
+    "ram_used_gib": {
+      "idle": {
+        "min": 10.45,
+        "avg": 10.46,
+        "max": 10.47
+      },
+      "workload": {
+        "min": 10.59,
+        "avg": 10.61,
+        "max": 10.67
+      }
+    },
+    "ram_available_gib": {
+      "idle": {
+        "min": 5.41,
+        "avg": 5.43,
+        "max": 5.43
+      },
+      "workload": {
+        "min": 5.22,
+        "avg": 5.27,
+        "max": 5.29
+      }
+    },
+    "ram_percent": {
+      "idle": {
+        "min": 65.8,
+        "avg": 65.84,
+        "max": 65.9
+      },
+      "workload": {
+        "min": 66.7,
+        "avg": 66.8,
+        "max": 67.2
+      }
+    }
+  }
+}
